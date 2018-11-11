@@ -11,6 +11,28 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+
+Route::get('/admin/show', function(){
+	return response()->json([
+		'tipo' => 'aqui se muestran datos'
+	]);
 });
+
+Route::get('/admin/create', function(){
+	return response()->json([
+		'tipo' => 'aqui se crean datos'
+	]);
+});
+
+Route::get('/admin/edit', function(){
+	return response()->json([
+		'tipo' => 'aqui se editan datos'
+	]);
+});
+
+Route::get('/admin/delete', function(){
+	return response()->json([
+		'tipo' => 'aqui se eliminan datos'
+	]);
+});
+
