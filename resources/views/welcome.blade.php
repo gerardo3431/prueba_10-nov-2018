@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    ¿Qui iciste Manchiiiiii? :v
+                    ¿kiubo JoJo? :v
                 </div>
 
                 <div class="links">
